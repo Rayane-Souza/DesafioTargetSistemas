@@ -89,6 +89,38 @@ Próximo: 20
 Adicionar um número incremental após cada grupo de variação. 
 
 
+### 5) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
+
+Pimeira Visita:
+
+Liguo dois interruptores e mantenho o terceiro desligado.
+Motivo:
+Se duas lâmpadas estiverem acesas, os interruptores ligados controlam essas lâmpadas.
+Se uma lâmpada estiver acesa, o interruptor ligado controla essa lâmpada, e o outro interruptor ligado não controla nenhuma lâmpada.
+Se nenhuma lâmpada estiver acesa, o interruptor que controla a lâmpada acesa é o que você deixou desligado.
+
+Segunda Visita:
+
+Desligo um dos interruptores ligados e vá verificar as lâmpadas.
+Motivo:
+Lâmpada que estava acesa e agora está apagada: O interruptor que desliguei controla essa lâmpada.
+Lâmpada que estava acesa e continua acesa: O outro interruptor ligado controla essa lâmpada.
+Lâmpada que estava apagada e continua apagada: O interruptor que você deixou desligado na primeira visita controla essa lâmpada.
+
+Exemplo:
+
+Na primeira visita, liguei os interruptores A e B e mantive C desligado.
+Ao verificar, encontrei uma lâmpada acesa na sala 1 e outra acesa na sala 2.
+Na segunda visita, desliguei o interruptor A.
+A lâmpada na sala 1 agora está apagada.
+
+### Conclusão:
+
+O interruptor A controla a lâmpada da sala 1.
+O interruptor B controla a lâmpada da sala 2.
+O interruptor C controla a lâmpada da sala 3 (que estava sempre apagada).
+
+
 ## 💻 Tecnologias usadas
 
 ![Java](https://img.shields.io/badge/-Java-0D1117?style=for-the-badge&logo=java&logoColor=F7DF1E&labelColor=0D1117)
