@@ -93,7 +93,7 @@ Adicionar um número incremental após cada grupo de variação.
 
 Pimeira Visita:
 
-Liguo dois interruptores e mantenho o terceiro desligado.
+Ligo dois interruptores e mantenho o terceiro desligado.
 Motivo:
 Se duas lâmpadas estiverem acesas, os interruptores ligados controlam essas lâmpadas.
 Se uma lâmpada estiver acesa, o interruptor ligado controla essa lâmpada, e o outro interruptor ligado não controla nenhuma lâmpada.
